@@ -7,9 +7,10 @@
 @import "global/variables.scss";
 @import "global/normalize";
 @import "global/mixins.scss";
-
 // Сommon element styles
 @import "global/page.scss";
+@import "global/scroll.scss";
+@import "global/preloader.scss";
 
 // Pixel Perfect
 // @import "global/pixel-perfect.scss";
@@ -17,9 +18,17 @@
 /* Blocks */
 
 //Header
-// @import "blocks/header/header.scss";
+@import "blocks/header/header.scss";
+@import "blocks/header/header-logo.scss";
+@import "blocks/header/nav-toggle-button.scss";
+@import "blocks/header/navigation.scss";
+@import "blocks/header/navigation-list.scss";
 
 // index
+@import "blocks/index/contacts/contacts--indx.scss";
+@import "blocks/index/promo/promo.scss";
+// @import "blocks/";
+
 // @import "blocks/";
 
 // Footer
