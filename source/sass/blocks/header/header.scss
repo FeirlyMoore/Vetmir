@@ -14,7 +14,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    // position: absolute;
     position: relative;
     top: 0;
     left: 0;
@@ -47,7 +46,6 @@
 
   @media (min-width: $tablet-width) {
     width: fit-content;
-    // padding: 0 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -60,6 +58,7 @@
   position: relative;
   font-size: 1.4em;
   width: 250px;
+  align-self: start;
 
   @media (min-width: $tablet-width) {
     display: flex;
