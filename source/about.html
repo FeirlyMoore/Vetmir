@@ -51,7 +51,7 @@
             <img src="img/icons/icon__hours-clock-24.svg" alt="clock-icon" width="30">
           </picture>
           +7 (4932) 34-55-77</a>
-        <a class="header__contacts__content header__contacts__map" href="https://yandex.ru/maps/org/vetmir/1108985246/?ll=40.968411%2C57.027777&z=18" target="_blank">
+        <a class="header__contacts__content header__contacts__map" href="https://yandex.ru/maps/org/vetmir/1108985246/?ll=40.968411%2C57.027777&z=18"  target="_blank">
           <picture>
             <source srcset="img/icons/icon__location.svg" media="(min-width: 1200px)" width="40">
             <source srcset="img/icons/icon__location.svg" media="(min-width: 768px)" width="35">
@@ -64,9 +64,10 @@
       <!-- Навигация -->
       <nav class="main-nav main-nav--opened">
         <button class="nav-toggle-button nav-toggle-button--js" type="button" aria-label="Открыть меню" accesskey="b">
-        <span class="hidden">Открыть меню</span> </button>
-        <ul class="nav-list nav-list--style nav-list-index">
-          <li class="nav-list__item nav-list__item--current">
+          <span class="hidden">Открыть меню</span>
+        </button>
+        <ul class="nav-list nav-list--style">
+          <li class="nav-list__item">
             <a class="nav-list__link" href="index.html">Главная</a>
           </li>
           <li class="nav-list__item">
@@ -78,7 +79,7 @@
           <li class="nav-list__item">
             <a class="nav-list__link" href="doctors.html">Врачи</a>
           </li>
-          <li class="nav-list__item">
+          <li class="nav-list__item nav-list__item--current">
             <a class="nav-list__link" href="about.html">О нас</a>
           </li>
           <li class="nav-list__item">
@@ -87,30 +88,7 @@
         </ul>
       </nav>
     </header>
-
     <main class="main">
-      <!-- Вводный блок, представление товара -->
-      <section class="promo">
-        <article class="promo_article">
-          <h1 class="promo_h1">
-            Команда ВетМир нетривиальные ветеринары — мы относимся к домашним животным как к семье, и 24/7 стоим на страже их здоровья !
-          </h1>
-          <p class="promo__p">От нас уходят только здоровыми</p>
-        </article>
-        <a class="promo__link" href="contacts.html">Записаться на приём</a>
-      </section>
-
-      <!-- контактный блок -->
-      <section class="contacts--indx">
-        <div class="contacts--indx__description">
-
-        </div>
-        <div class="contacts--indx__map">
-          <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3A37e7fb883273ebb1a1d92969765219dfee094da4da77a1a06e95c97fc80b16a3&amp;source=constructor" width="100%" height="400" frameborder="0">
-          </iframe>
-        </div>
-      </section>
 
     </main>
     <footer class="footer">
