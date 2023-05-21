@@ -78,7 +78,7 @@
 
 .nav-list__item--current {
   &.nav-list__item {
-    border-bottom: 1px solid $light-green;
+    border-bottom: 1px solid $main-green;
 
     &:hover {
       opacity: 1;
@@ -96,7 +96,7 @@
   .nav-list__link {
     @media (min-width: $tablet-width) {
       padding-bottom: 10px;
-      border-bottom: 2px solid $light-green;
+      border-bottom: 2px solid $main-green;
     }
   }
 }
