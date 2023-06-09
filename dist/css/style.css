@@ -980,3 +980,42 @@ template {
   @media (min-width: 1200px) {
     .contacts-indx__map > iframe {
       width: 65vw; } }
+
+.privileges {
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  box-sizing: border-box; }
+  @media (min-width: 768px) {
+    .privileges {
+      flex-direction: row; } }
+
+.privileges__title {
+  font-size: 2.5em;
+  line-height: 30px;
+  font-weight: 300;
+  width: 320px; }
+
+.privileges__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+  grid-gap: 10px; }
+
+.privileges__item {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #ee741d;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 1.7em;
+  font-weight: 200; }
+  .privileges__item:hover {
+    border: 1px solid rgba(238, 116, 29, 0.5); }
